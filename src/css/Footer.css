@@ -1,0 +1,12 @@
+footer {
+    clear: both;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-top: 5px solid rgb(57, 106, 197);
+    margin: -10px;
+    color: white;
+}
+
+footer p {
+    padding-left: 15px;
+}

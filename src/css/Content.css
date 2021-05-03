@@ -1,0 +1,14 @@
+main {
+    float: left;
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 615px) {
+    main {
+        width: 90%;
+        float: none;
+        margin: auto;
+    }
+}

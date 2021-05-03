@@ -1,0 +1,17 @@
+header {
+    background-color: cornflowerblue;
+    border-bottom: 5px solid rgb(57, 106, 197);
+    padding: 10px;
+    color: white;
+    margin: -10px -10px 10px -10px;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 615px) {
+    h1 {
+        text-align: center;
+    }
+}

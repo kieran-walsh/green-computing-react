@@ -1,0 +1,34 @@
+/* Common CSS Rules for the entire app */
+
+a {
+    color: rgb(95, 133, 204);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(44, 83, 155);
+}
+
+#clearfix {
+    clear: both;
+}
+
+#content {
+    margin-bottom: 40px;
+}
+
+.detail-text {
+    max-width: 90%;
+}
+
+hr {
+    border: 1px solid lightgray;
+}
+
+@media screen and (max-width: 615px) {
+    button {
+        height: 1.5em;
+        width: auto;
+        font-size: 1.1em;
+    }
+}

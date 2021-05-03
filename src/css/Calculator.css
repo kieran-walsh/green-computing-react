@@ -1,0 +1,62 @@
+/* CSS rules arranged alphabetically */
+
+#calc-result {
+    padding-top: 10px;
+    border-top: 0px dashed gray;
+}
+
+.coach-mark {
+    font-weight: bold;
+}
+
+#coach-1 {
+    display: block;
+    padding: 10px 0;
+}
+
+#coach-2 {
+    position: absolute;
+    padding-left: 5px;
+}
+
+.featured-div {
+    background-color: #e9e9e9;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#formula {
+    font-style: italic;
+    padding-left: 5%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+.hr-border {
+    border: 1px dashed lightgray;
+}
+
+input {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+p.hidden {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+#pages-hint, #copies-hint {
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 615px) {
+    #coach-2 {
+        position: static;
+    }
+}

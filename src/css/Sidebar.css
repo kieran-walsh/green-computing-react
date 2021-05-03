@@ -1,0 +1,26 @@
+#sitemap {
+    float: left;
+    width: 23%;
+    padding-left: 15px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-right: 3%;
+    margin-left: 0.5%;
+}
+
+a.selected {
+    color: navy;
+}
+
+@media screen and (max-width: 615px) {
+    #sitemap {
+        width: 90%;
+        float: none;
+        margin: auto;
+    }
+
+    #more {
+        display: none;
+    }
+}
